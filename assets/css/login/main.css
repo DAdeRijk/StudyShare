@@ -1,0 +1,30 @@
+#loginCard {
+	position: absolute;
+	top: calc(50% - 25%);
+	min-height: 350px;
+	padding: 20px;
+	box-shadow: 2px 2px 1px #CCC;
+}
+
+#loginTitle {
+	font-size: 150%;
+}
+
+#wrongLoginModal {
+	width: 400px;
+	margin-top: 15%
+}
+
+#wrong {
+	display: none;
+}
+
+#incomplete {
+	display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    #wrongLogginModal {
+		width: 290px;
+	}
+}

@@ -1,0 +1,58 @@
+.student_border {
+	border-radius: 1px;
+	border: 1px #90caf9 solid;
+	box-shadow: 2px 2px 2px #bbdefb;
+	height: 80PX;
+	background-color: white;
+	padding: 13px;
+	padding-left: 0;
+	transition: box-shadow 0.2s;
+	-webkit-transition: box-shadow 0.2s;
+}
+
+.student_border:hover {
+	box-shadow: 4px 4px 4px #bbdefb;
+}
+
+.student {
+	padding: 5px !important;
+	height: 90px;
+}
+
+.class_card_chip {
+	font-size: 10px;
+	height: 20px;
+	width: 62px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.class_card_chip:hover {
+	cursor: pointer;
+}
+
+.education_card_chip {
+	font-size: 10px;
+	height: 20px;
+	width: 62px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.education_card_chip:hover {
+	cursor: pointer;
+}
+
+#studentlist {
+	padding: 0 100px;
+	padding-bottom: 30px;
+}
+
+.chip {
+	text-align: center;
+	padding: 0;
+}
+
+.student {
+	cursor: pointer;
+}
